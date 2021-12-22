@@ -1,0 +1,12 @@
+<h2>CURRENT NHS CYBER THREATS</h2>
+<ul class="alerts">
+    <li  *ngFor="let item of alert.items" >
+        <div>{{item.threatId}}</div>
+        <div><span>url: </span>
+            <!-- <a href="{{}}">{{}}</a> -->
+        </div>
+
+    </li>
+</ul>
+
+<!-- <app-alert-detail [alert]="selectedAlert"></app-alert-detail> -->

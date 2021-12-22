@@ -1,0 +1,5 @@
+{
+    "alertUrl": "https: //digital.nhs.uk/restapi/CyberAlert/",
+    "textfile": "assets/textfile.txt",
+    "date": "2020-01-29"
+}

@@ -1,0 +1,10 @@
+{
+  "/api": {
+    "target": "https://digital.nhs.uk/restapi/CyberAlert",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}
